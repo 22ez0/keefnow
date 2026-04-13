@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const BASE = import.meta.env.BASE_URL;
 
-const WA_NUMBER = "5538913101333";
+const WA_NUMBER = "5538991310133";
 const WA_URL = `https://wa.me/${WA_NUMBER}`;
 const EMAIL = "keefnow@outlook.com.br";
 const INSTAGRAM = "https://instagram.com/keefnow";
