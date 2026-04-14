@@ -1,6 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
+import DemoBuilder from "./DemoBuilder";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -333,6 +334,9 @@ function App() {
             ))}
           </div>
         </section>
+
+        {/* DEMO BUILDER */}
+        <DemoBuilder lang={lang} />
 
         {/* STACK */}
         <section id="stack" className="py-24 px-6 md:px-16 lg:px-32">
